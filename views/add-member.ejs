@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a new member!</title>
+    <link href="/css/style.css" rel="stylesheet">
+    <script src="/js/main.js" defer></script>
+</head>
+
+<body class="bg-gray-900 p-8">
+    <div class="max-w-4xl mx-auto">
+        <div class="bg-slate-50 p-6 rounded-lg shadow-md mb-8">
+            <h2 class="text-xl font-semibold mb-4 text-slate-800">Add New Member</h2>
+            <form action="/addfamily" method="POST">
+                <input type="text" name="familyName" placeholder="Enter family member's name"
+                    class="w-full p-2 border rounded-md bg-slate-100 border-slate-300 text-slate-800" required>
+                <button type="submit" class="mt-4 bg-blue-400 text-slate-800 px-4 py-2 rounded hover:bg-blue-300">
+                    Add New Member
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
